@@ -122,16 +122,22 @@ button:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .login {
-    width: 90%;         
+  .signUp {
+    width: 90%;
     padding: 30px 20px;
   }
 
-  input, button {
+  input,
+  button {
     width: 100%;
   }
 
   .toggle-pass {
     right: 10px;
   }
+
+  body {
+    padding: 20px;
+  }
 }
+
